@@ -31,7 +31,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				and district=#{district}
 			</if>
 			<if test="customermanagerid != null and customermanagerid != ''">
-				and customermanagerid=#{customermanagerid}
+				and customermanager=#{customermanagerid}
 			</if>
 			<if test="grade != null and grade != ''">
 				and grade=#{grade}
